@@ -1,0 +1,113 @@
+---
+name: cinematic-luxury-real-estate-experience
+description: Build a cinematic, dark-mode 3D interactive luxury real estate portfolio and private client acquisition platform with orbital development nodes, interactive investment modals, dynamic acquisition pipelines, and asset-type portfolio switchers.
+stack:
+  - Next.js (App Router) / React
+  - Three.js / @react-three/fiber & @react-three/drei
+  - Framer Motion / GSAP + ScrollTrigger
+  - Tailwind CSS + Lucide React
+  - Lenis Scroll (Smooth Inertial Scrolling)
+---
+
+## Overview & Metaphor
+An ultra-luxury architectural experience that replaces standard flat property listings with an interactive "Asset Control Center." Properties and private development tiers are presented as celestial architectural nodes with investment clarity, acquisition pipeline tracking, and adaptive portfolio views.
+
+---
+
+## Architecture & Scenes
+
+### 1. Scene 00: The Private Gateway (Interactive Cursor Loader)
+- **Goal:** Establish exclusivity and architectural prestige before loading heavy 3D assets.
+- **State Sequence:**
+  1. Centered minimalist serif/sans typography: `"Architecture is more than square footage."`
+  2. Dynamic crossfade to: `"Legacy is what you are acquiring."`
+  3. Interactive radial reticle tracking the cursor with a subtle pulsing gold/warm ambient glow.
+  4. Footer cue: `MOVE TO ENTER` (with a top-right `BYPASS` button).
+- **Trigger:** Mouse movement threshold or click triggers an aperture expand transition into Scene 01.
+
+---
+
+### 2. Scene 01: The Estate Control Center (Hero & 3D Core)
+- **Background:** WebGL deep-space starfield with warm champagne particle mist and parallax depth.
+- **Visual Centerpiece:**
+  - A glowing central architectural core (Warm White / Platinum flare with subtle chromatic dispersion).
+  - Four orbiting colored luxury asset spheres (Emerald, Amber, Azure, Amethyst).
+- **Typography & Copy:**
+  - Tag: `[ • ATELIER ARCHIVES — SCENE 01 ]`
+  - Heading (H1): `The Estate Control Center.`
+  - Subtext: *"Four private acquisition tiers, one cinematic interface. Explore what you're really acquiring — the craftsmanship, not just the square footage."*
+  - Scroll Cue: `SCROLL TO EXPLORE ESTATES` with an animated pulse indicator.
+
+---
+
+### 3. Scene 02: The Portfolios (Interactive Asset Grid + Detail Modals)
+- **Grid Layout:** 2x2 Glassmorphism Bento grid with floating 3D glowing spheres previewing each development tier.
+- **Asset Tier Specifications:**
+
+| ID | Tier / Collection | Starting Capital | Sphere Accent | Description |
+|---|---|---|---|---|
+| `01` | **Bespoke Penthouses** | `From $4.5M` | Emerald Jade (`#10B981`) | Sky-level residences with private elevators, 360° views, and custom Italian finishes. |
+| `02` | **Coastal & Hill Villas** | `From $8.2M` | Amber Gold (`#F59E0B`) | Secluded cliffside estates featuring infinity architecture and private coastline access. |
+| `03` | **Off-Plan Developments** | `From $1.8M` | Cyan Azure (`#06B6D4`) | Prime early-phase capital growth opportunities in prime international corridors. |
+| `04` | **Private Island Estates** | `From $22.0M+` | Royal Velvet (`#8B5CF6`) | Fully sovereign private sanctuaries with bespoke aviation and yachting infrastructure. |
+
+#### Modal / Drawer Specification (Triggered via `VIEW DOSSIER ->`):
+- **Backdrop:** `backdrop-blur-xl bg-black/85 border border-white/10 rounded-2xl`.
+- **Header:** Tier Title, Architectural Sub-title, and Close Reticle (`✕`).
+- **Capital & Cost Breakdown Cards:**
+  - `INITIAL ALLOCATION`: Minimum reservation deposit (e.g., `$250,000`).
+  - `ESTIMATED YIELD`: Target annual return (e.g., `8.4% Net ROI` labeled `Projected`).
+  - `SERVICE RETAINER`: Estate management fee (e.g., `$1,800/mo` labeled `Turnkey Concierge`).
+- **Two-Column Specifications:**
+  - **CURATED SPECIFICATIONS:** Private helipad, heated travertine floors, biometric vault, Gaggenau appliances, custom wine cellar.
+  - **TERMS & ADVISORY:** Escrow routing, freehold foreign ownership eligibility, private tax incentive structures, and white-glove handover timeline.
+
+---
+
+### 4. Scene 03: The Acquisition Pipeline (Continuous Buyer Journey)
+- **Header:** `SCENE 03 — THE ACQUISITION PIPELINE`
+- **Heading:** `One seamless acquisition path.`
+- **Subtext:** *"Every private client moves through an encrypted, friction-free journey — from initial enquiry to key handover."*
+- **Visual Flow:** Luminous energy pulses traveling along a continuous pipeline:
+  $$\text{Private Enquiry} \longrightarrow \text{KYC Verification} \longrightarrow \text{VR Walkthrough} \longrightarrow \text{Escrow Setup} \longrightarrow \text{Private Viewing} \longrightarrow \text{Notary Sign-off} \longrightarrow \text{Key Handover}$$
+
+---
+
+### 5. Scene 04: The Global Portfolios (Adaptive Asset Switcher)
+- **Header:** `SCENE 04 — ASSET CLASSIFICATIONS`
+- **Heading:** `Engineered for your portfolio.`
+- **Subtext:** *"One standard of excellence, multiple asset classes. Select an archetype to inspect the acquisition blueprint."*
+- **Segmented Control (Pill Switcher):**
+  - `Ultra-Luxury Residential` | `Branded Hotel Residences` | `Private Islands` | `Commercial Flagships`
+- **Dynamic State Engine:**
+  - **Ultra-Luxury Residential:**
+    - Value Prop: *"Turn private capital into generational landmark living."*
+    - Blueprint Nodes: `Client Dossier` $\rightarrow$ `Private Concierge` $\rightarrow$ `Deed Allocation` $\rightarrow$ `Bespoke Interior Fit` $\rightarrow$ `White-Glove Handover`
+  - **Branded Hotel Residences:**
+    - Value Prop: *"Turn prime urban footprint into high-yield passive luxury."*
+    - Blueprint Nodes: `Investor Inquiry` $\rightarrow$ `Rental Pool Opt-In` $\rightarrow$ `Hospitality Audit` $\rightarrow$ `Revenue Agreement` $\rightarrow$ `Quarterly Yield Distribution`
+  - **Private Islands:**
+    - Value Prop: *"Turn sovereign geography into an untouchable private haven."*
+    - Blueprint Nodes: `Sovereign Survey` $\rightarrow$ `Eco-Masterplan` $\rightarrow$ `Maritime Permitting` $\rightarrow$ `Infrastructure Build` $\rightarrow$ `Sanctuary Commissioning`
+  - **Commercial Flagships:**
+    - Value Prop: *"Turn high-street real estate into iconic institutional assets."*
+    - Blueprint Nodes: `Institutional RFP` $\rightarrow$ `Anchor Tenant Audit` $\rightarrow$ `Cap-Rate Valuation` $\rightarrow$ `Asset Structuring` $\rightarrow$ `Yield Execution`
+
+---
+
+## Design System & Atmosphere
+
+```css
+/* Real Estate Luxury Color Palette */
+--bg-estate-noir: #030407;
+--surface-glass: rgba(18, 20, 29, 0.7);
+--border-gold: rgba(212, 175, 55, 0.15);
+--text-primary: #F8FAFC;
+--text-muted: #94A3B8;
+--accent-champagne: #D4AF37;
+
+/* Asset Class Glowing Accents */
+--orb-penthouse: #10B981;
+--orb-villa: #F59E0B;
+--orb-offplan: #06B6D4;
+--orb-island: #8B5CF6;
